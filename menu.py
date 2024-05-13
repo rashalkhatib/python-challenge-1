@@ -7,7 +7,7 @@ menu = {
         "Granola bar": 1.99
     },
     "Meals": {
-        "Burrito": 4.49,
+        "Burrito": 4.99,
         "Teriyaki Chicken": 9.99,
         "Sushi": 7.49,
         "Pad Thai": 6.99,
