@@ -2,7 +2,7 @@
 menu = {
     "Snacks": {
         "Cookie": .99,
-        "Banana": .69,
+        "Banana": .666,
         "Apple": .49,
         "Granola bar": 1.99
     },
