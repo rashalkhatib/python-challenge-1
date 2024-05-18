@@ -6,7 +6,10 @@ This application is an ordering system that enables the user to place a food ord
 
 ## Step by Step
 
-1. Set up order list
-
-
+1. Set up order list. Order list will store a list of dictionaries for # menu item name, item price, and quantity ordered
+ 
+   <img src="orders.png" width="90px">
+   
+   * Launch the store and present a greeting to the customer
+  
 ## Results
