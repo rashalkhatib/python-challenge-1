@@ -5,13 +5,9 @@
 This application is an ordering system that enables the user to place a food order, and to receive an itemized receipt (list of item(s), price per item, total cost) upon order completion.
 
 ## Menu consists of 4 main categories. Each main category includes sub-categories and prices: 
-1. Snacks
-   * Cookie $0.99, Banana $0.66, Apple $0.49, Granola Bar $1.99
-3. Meals
-   * Burrito $4.99, 
-5. Drinks
-6. Dessert
-## 
+
+  <img src="menu.png" width="300px"> 
+
 
 ## Step by Step
 
