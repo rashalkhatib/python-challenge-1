@@ -20,6 +20,12 @@ This application is an ordering system that enables the user to place a food ord
 
    * Customers may want to order multiple items, so let's create a continuous loop
 
+      <img src="loop.png" width="130px">
+
+   * Ask the customer from which menu category they want to order
+
+       
+  
    
   
      
