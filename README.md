@@ -8,7 +8,6 @@ This application is an ordering system that enables the user to place a food ord
 
   <img src="menu.png" width="300px"> 
 
-
 ## Step by Step
 
 1. Set up order list. Order list will store a list of dictionaries for # menu item name, item price, and quantity ordered
@@ -20,6 +19,8 @@ This application is an ordering system that enables the user to place a food ord
      <img src="Greeting.png" width="350px">
 
    * Customers may want to order multiple items, so let's create a continuous loop
+
+   
   
      
 ## Results
