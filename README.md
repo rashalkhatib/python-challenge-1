@@ -46,10 +46,13 @@ Menu consists of 4 main categories. Each main category includes sub-categories a
   
    8. The customer's selected item, and quantity are appended to the order list in dictionary format.
 
-      
-   9.
-   10.
-   11. Customers may want to order multiple items, so let's create a continuous loop
+      <img src="append.png" width="200px">
+
+   9. A match-case statement is used to check if the customer would like to keep ordering, and performs the correct actions for y, n, and default cases.
+
+   10. 
+   11.
+   12. Customers may want to order multiple items, so let's create a continuous loop
 
       <img src="loop.png" width="130px">
 
