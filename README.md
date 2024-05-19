@@ -25,9 +25,11 @@ Menu consists of 4 main categories. Each main category includes sub-categories a
 
     <img src="number.png" width="300px">
     <img src="typed number.png" width="200px">
+    <img src="else.png" width="400px">
+
+ 4. menu_selction is converted to an integer.
+
     
-    
-   * Launch the store and present a greeting to the customer
      
      <img src="Greeting.png" width="350px">
 
