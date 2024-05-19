@@ -78,6 +78,12 @@ Menu consists of 4 main categories. Each main category includes sub-categories a
      
       <img src="receipt.png" width="500px">
 
-  6. List comprehension is used to calculate the total price of the order. 
+  6. List comprehension is used to calculate the total price of the order.
+
+      <img src="calc.png" width="350px">
+
+  7. The total price of the order is printed to the screen.
+
+      
       
 ## Results
