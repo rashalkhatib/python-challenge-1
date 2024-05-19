@@ -68,5 +68,9 @@ Menu consists of 4 main categories. Each main category includes sub-categories a
 
   3. The number of formatting spaces are correctly calculated.
 
-     
+      <img src="format.png" width="250px">
+
+  4. Space strings are created using string multiplication.
+
+      
 ## Results
