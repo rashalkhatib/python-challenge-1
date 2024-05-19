@@ -64,7 +64,7 @@ Menu consists of 4 main categories. Each main category includes sub-categories a
 
   2. The value of each key in each order dictionary is saved as a variable.
 
-  3. 
+      <img src="value.png" width="150px">
 
 
 ## Results
