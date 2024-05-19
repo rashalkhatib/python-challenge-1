@@ -72,5 +72,13 @@ Menu consists of 4 main categories. Each main category includes sub-categories a
 
   4. Space strings are created using string multiplication.
 
+      <img src="strings.png" width="200px">
+      
+The customer's order is printed with item name, price, and quantity.
+
+      
+
+  5. 
+
       
 ## Results
