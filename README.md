@@ -95,6 +95,6 @@ Listed below is a step by step of the written code based on the requested requir
 * Once the user ends their order by typing (N) or (n) the system will conclude the order, print a receipt that includes a "Thank you for your order!" message, followed by an itemized receipt which includes the selected menu item(s), price, and the total cost.
 
 ## Source Code:
-I worked on my code with a tutor through tutoring session
-I worked on my code with a private tutor through Wyzant.com
-I worked on my code with the assistance of bing.com/Copilot 
+* I worked on my code with a tutor through tutoring session
+* I worked on my code with a private tutor through Wyzant.com
+* I worked on my code with the assistance of bing.com/Copilot 
