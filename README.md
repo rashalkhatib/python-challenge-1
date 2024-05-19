@@ -42,9 +42,14 @@ Menu consists of 4 main categories. Each main category includes sub-categories a
       
   7. The customer is prompted for a quantity of their item selection and the value defaults to 1 if the customer does not input a valid number.
 
-  8. 
+      <img src="1.png" width="400px">
   
-  9. Customers may want to order multiple items, so let's create a continuous loop
+   8. The customer's selected item, and quantity are appended to the order list in dictionary format.
+
+      
+   9.
+   10.
+   11. Customers may want to order multiple items, so let's create a continuous loop
 
       <img src="loop.png" width="130px">
 
