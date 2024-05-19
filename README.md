@@ -4,13 +4,12 @@
 This application is an ordering system that enables the user to place a food order, and to receive an itemized receipt (list of item(s), price per item, total cost) upon order completion.
 
 ## Description:
-https://github.com/rashalkhatib/python-challenge-1  
-Listed below is a step by step of the written code based on the requested requirements.
 
 Menu consists of 4 main categories. Each main category includes sub-categories and prices. Below is the menu selection:
 
   <img src="menu.png" width="200px"> 
 
+Listed below is a step by step of the written code based on the requested requirements.
 
 ## Requirements | Order System
 
@@ -94,3 +93,8 @@ Menu consists of 4 main categories. Each main category includes sub-categories a
 * If the user types (Y) or (y) the system will display the 4 menu categories again. Once the user selects a menu category between numbers 1-4 the system will display the sub categories, and the user will be prompted to select the item and quantity.
 * The system will then inquire if the user would like to keep ordering. If the user selects (Y) or (y) the system will circle to the beginning of the application, greeting the user, and asking them to select a menu category (1-4). 
 * Once the user ends their order by typing (N) or (n) the system will conclude the order, print a receipt that includes a "Thank you for your order!" message, followed by an itemized receipt which includes the selected menu item(s), price, and the total cost.
+
+## Source Code:
+I worked on my code with a tutor through tutoring session
+I worked on my code with a private tutor through Wyzant.com
+I worked on my code with the assistance of bing.com/Copilot 
