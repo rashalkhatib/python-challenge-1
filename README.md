@@ -50,6 +50,14 @@ Menu consists of 4 main categories. Each main category includes sub-categories a
 
    9. A match-case statement is used to check if the customer would like to keep ordering, and performs the correct actions for y, n, and default cases.
 
+      <img src="yn.png" width="450px">
+
+  10. The match-case statement converts the use input to lowercase or uppercase before checking the case.
+
+
+
+
+      
    10. 
    11.
    12. Customers may want to order multiple items, so let's create a continuous loop
