@@ -74,11 +74,10 @@ Menu consists of 4 main categories. Each main category includes sub-categories a
 
       <img src="strings.png" width="200px">
       
-The customer's order is printed with item name, price, and quantity.
+  5. The customer's order is printed with item name, price, and quantity.
+     
+      <img src="receipt.png" width="500px">
 
-      
-
-  5. 
-
+  6. List comprehension is used to calculate the total price of the order. 
       
 ## Results
