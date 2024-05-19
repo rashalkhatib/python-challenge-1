@@ -19,10 +19,11 @@ Menu consists of 4 main categories. Each main category includes sub-categories a
 
     <img src="menu selection.png" width="300px">
     
+    <img src="variable.png" width="40px">
     
-   print("From which menu would you like to order? ")
+3. User input menu_selection is checked as a number and error is printed if it is not.
 
-
+    
    * Launch the store and present a greeting to the customer
      
      <img src="Greeting.png" width="350px">
