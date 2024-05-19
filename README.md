@@ -13,10 +13,12 @@ Menu consists of 4 main categories. Each main category includes sub-categories a
 
 1. An order list is initialized. 
  
-   <img src="orders.png" width="90px">
+   <img src="orders.png" width="80px">
 
 2. User is prompted for their menu item selection and it's saved as a variable menu_selection.
 
+    <img src="menu selection.png" width="300px">
+    
     
    print("From which menu would you like to order? ")
 
