@@ -34,8 +34,12 @@ Menu consists of 4 main categories. Each main category includes sub-categories a
   5. An if-else statement is used to check if menu_selection is in the menu_items keys, and an error is printed if it isn't.
 
      <img src="if.png" width="300px">
+     <img src="else2.png" width="300px">
+     
+  6. The item name of the customer's selection is extracted from the menu_items dictionary and stored as a variable.
 
-   * Customers may want to order multiple items, so let's create a continuous loop
+      
+  8. Customers may want to order multiple items, so let's create a continuous loop
 
       <img src="loop.png" width="130px">
 
