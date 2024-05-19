@@ -29,9 +29,11 @@ Menu consists of 4 main categories. Each main category includes sub-categories a
 
  4. menu_selction is converted to an integer.
 
-    
+    <img src="int.png" width="300px">
      
-     <img src="Greeting.png" width="350px">
+  5. An if-else statement is used to check if menu_selection is in the menu_items keys, and an error is printed if it isn't.
+
+      
 
    * Customers may want to order multiple items, so let's create a continuous loop
 
