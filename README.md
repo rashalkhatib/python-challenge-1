@@ -66,5 +66,7 @@ Menu consists of 4 main categories. Each main category includes sub-categories a
 
       <img src="value.png" width="150px">
 
+  3. The number of formatting spaces are correctly calculated.
 
+     
 ## Results
