@@ -38,8 +38,13 @@ Menu consists of 4 main categories. Each main category includes sub-categories a
      
   6. The item name of the customer's selection is extracted from the menu_items dictionary and stored as a variable.
 
+      <img src="selection.png" width="300px">
       
-  8. Customers may want to order multiple items, so let's create a continuous loop
+  7. The customer is prompted for a quantity of their item selection and the value defaults to 1 if the customer does not input a valid number.
+
+  8. 
+  
+  9. Customers may want to order multiple items, so let's create a continuous loop
 
       <img src="loop.png" width="130px">
 
