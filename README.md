@@ -84,6 +84,7 @@ Menu consists of 4 main categories. Each main category includes sub-categories a
 
   7. The total price of the order is printed to the screen.
 
-      
+      <img src="price.png" width="200px">
+
       
 ## Results
