@@ -135,33 +135,62 @@ while place_order:
             # 4. Check if the menu selection is in the menu items
             if menu_item_number in menu_items.keys():
                     
-                # Store the item name as a variable
-                selected_item = menu_items[menu_item_number]
-                item_name = selected_item["Item name"]
-                item_price = selected_item["Price"]
-                print(f"{item_name} for {item_price}")
+                    # Store the item name as a variable
+                    selected_item = menu_items[menu_item_number]
+                    item_name = selected_item["Item name"]
+                    item_price = selected_item["Price"]
+                    print(f"{item_name} for {item_price}")
 
-            # Ask the customer for the quantity of the menu item
-            quantity = input(f"How many {item_name} would you like to order? ")
+                # Ask the customer for the quantity of the menu item
+                    quantity = input(f"How many {item_name} would you like to order? ")
 
             # Check if the quantity is a number, default to 1 if not
-            if not quantity.isdigit():
+                    if not quantity.isdigit():
                         quantity = 1
-            else:
+                    else:
                         quantity = int(quantity)
-            orders.append({
+                    orders.append({
                         "Item name": item_name,
                         "Price": item_price,
                         "Quantity": quantity
                     })
-            print(f"Added {quantity} of {item_name} to your order.") 
+                    print(f"Added {quantity} of {item_name} to your order.") 
 
-        else: 
+            # What is the menu selection? is that in a variable somewhere? YES: menu_items
+            else: 
             # Tell the customer they didn't select a menu option
                     print(f"{menu_item_number} is not a valid menu item.")
-    else:
+        else:
                 # Tell the customer they didn't select a number
-            print("You didn't select a valid number.")
+                print("You didn't select a valid number.")
+
+            # Check if the menu_item_number appears in the menu_items (whatever that variable is)
+            # How are the numbers stored in menu_items? INTEGERS; KEYS
+            # How to check if an integer is a dictionary key?
+            # if menu_item_number in menu_items:
+
+                    # Store the item name as a variable
+                    # What is the item? It's a meal item, like "sushi"
+                    # Where is that? menu_items
+            
+                    # Ask the customer for the quantity of the menu item
+
+
+                    # Check if the quantity is a number, default to 1 if not
+
+
+                    # Add the item name, price, and quantity to the order list
+
+
+                    # Tell the customer that their input isn't valid
+
+ 
+                    # Tell the customer they didn't select a menu option
+
+            #else:
+            # Tell the customer they didn't select a menu option
+       # print(f"{menu_category} was not a menu option.")
+    # else:
 
     while True:
         # Ask the customer if they would like to order anything else
@@ -171,24 +200,30 @@ while place_order:
         # Keep ordering
         if keep_ordering == 'y':
             break
+
          # Exit the keep ordering question loop
         elif keep_ordering == 'n':
             place_order = False
-        
-            # Complete the order 
+
             # Since the customer decided to stop ordering, thank them for
             # their order
             print("Thank you for your order!")
             break
+            # Complete the order
+            
         else:
+            print("Please enter 'Y' for yes or 'N' for no")
+
+                # Exit the keep ordering question loop
 
                 # Keep ordering 
-            if keep_ordering == 'N':
+        if keep_ordering == 'N':
                 place_order = False
                 break
-            else: place_order = True
+        else: place_order = True
 
 # Print out the customer's order
+
 print("Item name                 | Price  | Quantity")
 print("--------------------------|--------|----------")
 
@@ -199,6 +234,7 @@ for item in orders:
     quantity = item["Quantity"]
 
     # 8. Calculate the number of spaces for formatted printing
+    
     num_item_spaces = 25 - len(item_name)
     num_price_spaces = 5 - len(f"{item_price:.2f}")
     num_quantity_spaces = 7 - len(str(quantity))
@@ -208,7 +244,7 @@ for item in orders:
     price_spaces = " " * num_price_spaces
     quantity_spaces = " " * num_quantity_spaces
 
-    # 10. Print the item name, price, and quantity
+# 10. Print the item name, price, and quantity
     print(f"{item_name}{item_spaces} | ${item_price:.2f}{price_spaces} | {quantity}{quantity_spaces}")
 
 # 11. Calculate the cost of the order using list comprehension
@@ -217,3 +253,6 @@ total_cost = sum(item["Price"] * item["Quantity"] for item in orders)
 
 # Print the prices.
 print(f"\nTotal cost: ${total_cost:.2f}")
+
+
+
