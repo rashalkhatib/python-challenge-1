@@ -23,6 +23,8 @@ Menu consists of 4 main categories. Each main category includes sub-categories a
     
 3. User input menu_selection is checked as a number and error is printed if it is not.
 
+    <img src="digits.png" width="180px">
+    
     
    * Launch the store and present a greeting to the customer
      
