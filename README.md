@@ -54,6 +54,7 @@ Menu consists of 4 main categories. Each main category includes sub-categories a
 
   10. The match-case statement converts the use input to lowercase or uppercase before checking the case.
 
+      <img src="upper.png" width="500px">
 
 
 
