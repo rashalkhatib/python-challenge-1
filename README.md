@@ -24,7 +24,8 @@ Menu consists of 4 main categories. Each main category includes sub-categories a
 3. User input menu_selection is checked as a number and error is printed if it is not.
 
     <img src="number.png" width="300px">
-    <img src="keys.png" width="300px">
+    <img src="typed number.png" width="200px">
+    
     
    * Launch the store and present a greeting to the customer
      
